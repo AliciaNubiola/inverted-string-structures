@@ -1,11 +1,38 @@
-Generate random strings (5-20 characters)
-Create datasets:
+import random
+import string
+import os
 
-small.txt: 100 strings
-medium.txt: 1,000 strings
-large.txt: 10,000 strings
-xlarge.txt: 50,000 strings
+# Set seed for reproducibility
+random.seed(42)
 
+def generate_unique_strings(count, min_len=5, max_len=20):
+    """Generate a set of unique random strings, order preserved for reproducibility."""
+    unique_strings = dict()
+    while len(unique_strings) < count:
+        length = random.randint(min_len, max_len)
+        s = ''.join(random.choices(string.ascii_letters + string.digits, k=length))
+        unique_strings[s] = None
+    return list(unique_strings.keys())
 
-Ensure uniqueness
-Optional: Add realistic patterns (URLs, emails, etc.)
+# Dataset specifications
+datasets = {
+    "small.txt": 100,
+    "medium.txt": 1000,
+    "large.txt": 10000,
+    "xlarge.txt": 50000
+}
+
+# Get the directory of this script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Generate datasets
+for filename, count in datasets.items():
+    print(f"Generating {filename} with {count} strings...")
+    strings = generate_unique_strings(count)
+    # Optional: shuffle reproducibly
+    random.shuffle(strings)
+    file_path = os.path.join(script_dir, filename)
+    with open(file_path, "w") as f:
+        f.write("\n".join(strings))
+
+print("Datasets generated successfully!")
