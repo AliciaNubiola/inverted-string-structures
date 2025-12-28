@@ -1,0 +1,92 @@
+{
+    "prefix_trie": {
+        "insert": [
+            {
+                "size": "small",
+                "time_sec": 0.0020952999911969528,
+                "peak_memory_bytes": 279548
+            },
+            {
+                "size": "medium",
+                "time_sec": 0.02344989999255631,
+                "peak_memory_bytes": 2519310
+            },
+            {
+                "size": "large",
+                "time_sec": 0.2300826999999117,
+                "peak_memory_bytes": 24013389
+            },
+            {
+                "size": "xlarge",
+                "time_sec": 1.2788796999957412,
+                "peak_memory_bytes": 116408709
+            }
+        ],
+        "search": [
+            {
+                "queries": 100,
+                "avg_time_sec": 3.007999912369996e-06,
+                "peak_memory_bytes": 485
+            }
+        ],
+        "range_search": [
+            {
+                "queries": 50,
+                "avg_time_sec": 1.77199998870492e-05,
+                "peak_memory_bytes": 4515
+            }
+        ],
+        "delete": [
+            {
+                "deletions": 1,
+                "avg_time_sec": 0.0006104999920353293,
+                "peak_memory_bytes": 1166
+            }
+        ]
+    },
+    "suffix_array": {
+        "insert": [
+            {
+                "size": "small",
+                "time_sec": 0.005008000007364899,
+                "peak_memory_bytes": 301773
+            },
+            {
+                "size": "medium",
+                "time_sec": 0.050827200000640005,
+                "peak_memory_bytes": 2898592
+            },
+            {
+                "size": "large",
+                "time_sec": 0.5617502999957651,
+                "peak_memory_bytes": 31874894
+            },
+            {
+                "size": "xlarge",
+                "time_sec": 3.4731979000061983,
+                "peak_memory_bytes": 204797525
+            }
+        ],
+        "search": [
+            {
+                "queries": 100,
+                "avg_time_sec": 0.0050543980000657025,
+                "peak_memory_bytes": 2700632
+            }
+        ],
+        "range_search": [
+            {
+                "queries": 50,
+                "avg_time_sec": 0.009514858000038658,
+                "peak_memory_bytes": 2700682
+            }
+        ],
+        "delete": [
+            {
+                "deletions": 1,
+                "avg_time_sec": 3.1040967000008095,
+                "peak_memory_bytes": 201672250
+            }
+        ]
+    }
+}

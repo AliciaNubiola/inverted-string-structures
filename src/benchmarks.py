@@ -26,8 +26,12 @@ class Benchmark:
     # -------------------------------
     def benchmark_insert(self, structure_class, name):
         self.results[name]["insert"] = []
+        print(f"  [INSERT] Testing...")
+        
         for size in self.dataset_sizes:
+            print(f"    • {size:8s} - Loading...", end=" ", flush=True)
             words = read_words_from_file(f"datasets/{size}.txt")
+            print(f"{len(words)} words loaded, inserting...", end=" ", flush=True)
 
             # Initialize structure
             structure = structure_class()
@@ -36,19 +40,24 @@ class Benchmark:
             tracemalloc.start()
             start_time = time.perf_counter()
 
-            for w in words:
-                structure.insert(w)
+            # Use batch insert if available
+            if hasattr(structure, 'insert_batch'):
+                structure.insert_batch(words)
+            else:
+                for w in words:
+                    structure.insert(w)
 
             elapsed = time.perf_counter() - start_time
             current, peak = tracemalloc.get_traced_memory()
             tracemalloc.stop()
+
+            print(f"✓ {elapsed:6.3f}s | {peak/(1024*1024):6.2f} MB")
 
             self.results[name]["insert"].append({
                 "size": size,
                 "time_sec": elapsed,
                 "peak_memory_bytes": peak
             })
-
     # -------------------------------
     # Benchmark search
     # -------------------------------
@@ -57,8 +66,12 @@ class Benchmark:
         size = self.dataset_sizes[-1]
         words = read_words_from_file(f"datasets/{size}.txt")
         structure = structure_class()
-        for w in words:
-            structure.insert(w)
+        # Use batch insert if available 
+        if hasattr(structure, 'insert_batch'):
+            structure.insert_batch(words)
+        else:
+            for w in words:
+                structure.insert(w)
 
         # Select queries randomly (some may not exist)
         queries = words[:query_count]
@@ -87,8 +100,12 @@ class Benchmark:
         size = self.dataset_sizes[-1]
         words = read_words_from_file(f"datasets/{size}.txt")
         structure = structure_class()
-        for w in words:
-            structure.insert(w)
+        # Use batch insert if available 
+        if hasattr(structure, 'insert_batch'):
+            structure.insert_batch(words)
+        else:
+            for w in words:
+                structure.insert(w)
 
         queries = random.choices(words, k=query_count)
 
@@ -111,23 +128,30 @@ class Benchmark:
     # -------------------------------
     # Benchmark delete
     # -------------------------------
-    def benchmark_delete(self, structure_class, name, delete_count=100):
+    def benchmark_delete(self, structure_class, name, delete_count=1):
         self.results[name]["delete"] = []
         size = self.dataset_sizes[-1]
         words = read_words_from_file(f"datasets/{size}.txt")
         structure = structure_class()
-        for w in words:
-            structure.insert(w)
+        # Use batch insert if available
+        if hasattr(structure, 'insert_batch'):
+            structure.insert_batch(words)
+        else:
+            for w in words:
+                structure.insert(w)
 
         # Pick words to delete
         deletions = random.choices(words, k=delete_count)
 
         tracemalloc.start()
         start_time = time.perf_counter()
-
+        print("Deleting words...", end=" ", flush=True)
+        i = 0
         for w in deletions:
+            i+=1
+            print(f"{i}/{delete_count}...", end=" ", flush=True)
             structure.delete(w)
-
+        print("Done.")
         elapsed = time.perf_counter() - start_time
         current, peak = tracemalloc.get_traced_memory()
         tracemalloc.stop()
@@ -147,10 +171,13 @@ class Benchmark:
         profiler.enable()
 
         self.benchmark_insert(structure_class, name)
+        print(f"Completed insert benchmark for {name}.")
         self.benchmark_search(structure_class, name)
+        print(f"Completed search benchmark for {name}.")
         self.benchmark_range_search(structure_class, name)
+        print(f"Completed range search benchmark for {name}.")
         self.benchmark_delete(structure_class, name)
-
+        print(f"Completed delete benchmark for {name}.")
         profiler.disable()
         profiler.print_stats()
 

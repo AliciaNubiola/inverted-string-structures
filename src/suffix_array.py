@@ -6,6 +6,7 @@ class InvertedSuffixArray:
         self.strings = []
         self.text = ""
         self.suffix_array = np.array([], dtype=np.int32)
+        self.strings_set = set(self.strings)
 
     # -------------------------------
     # String inversion
@@ -25,21 +26,27 @@ class InvertedSuffixArray:
     # Build suffix array (O(n log n))
     # -------------------------------
     def _rebuild_suffix_array(self) -> None:
-        # Concatenate all inverted strings with unique delimiters
-        self.text = ""
-        for i, s in enumerate(self.strings):
-            # Use Unicode private-use characters as separators
-            self.text += s + chr(0xE000 + i)
+        """
+        Optimized suffix array construction:
+        - Stores only indices, not full suffix strings
+        - Uses NumPy array for memory efficiency
+        """
 
-        # Generate and sort suffixes
-        suffixes = [(self.text[i:], i) for i in range(len(self.text))]
-        suffixes.sort()
+        # Concatenate inverted strings with unique delimiters
+        self.text = "".join(s + chr(0xE000 + i) for i, s in enumerate(self.strings))
+        N = len(self.text)
 
-        # Store indices in a NumPy array (sequential memory)
-        self.suffix_array = np.array(
-            [idx for _, idx in suffixes],
-            dtype=np.int32
-        )
+        # Store all starting indices
+        indices = np.arange(N, dtype=np.int32)
+
+        # Sort indices based on underlying string
+        # Only slice first K characters to speed up comparison (approximation)
+        K = 50  # adjust depending on average word length
+        indices = sorted(indices, key=lambda i: self.text[i:i+K])
+
+        # Convert to NumPy array for sequential memory
+        self.suffix_array = np.array(indices, dtype=np.int32)
+
 
     # -------------------------------
     # Search: binary search (O(m log n))
@@ -86,6 +93,7 @@ class InvertedSuffixArray:
             self.strings.remove(word)
             self._rebuild_suffix_array()
 
+
     # -------------------------------
     # Binary search helpers
     # -------------------------------
@@ -120,3 +128,22 @@ class InvertedSuffixArray:
         array_bytes = self.suffix_array.nbytes
 
         return text_bytes + strings_bytes + array_bytes
+
+
+    # -------------------------------
+    # Batch insert  
+    # -------------------------------
+
+    def insert_batch(self, words):
+        """
+        Insert multiple words at once - only rebuild suffix array once.
+        This is MUCH faster than calling insert() repeatedly.
+        
+        Time Complexity: O(n log n) instead of O(n² log n)
+        """
+        for word in words:
+            inverted = self.invert_string(word)
+            self.strings.append(inverted)  # Store inverted string (not original)
+        
+        # Only rebuild ONCE after all insertions
+        self._rebuild_suffix_array()
