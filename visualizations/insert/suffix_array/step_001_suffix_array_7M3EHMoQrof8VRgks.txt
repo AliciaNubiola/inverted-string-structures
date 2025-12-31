@@ -1,0 +1,22 @@
+Index    | Inverted Suffix                | Original Word
+--------------------------------------------------------------------------------
+0        | 3M7                           | 7M3
+1        | 7                             | 7
+2        | 8forQoMHE3M7                  | 7M3EHMoQrof8
+3        | E3M7                          | 7M3E
+4        | HE3M7                         | 7M3EH
+5        | M7                            | 7M
+6        | MHE3M7                        | 7M3EHM
+7        | QoMHE3M7                      | 7M3EHMoQ
+8        | RV8forQoMHE3M7                | 7M3EHMoQrof8VR
+9        | V8forQoMHE3M7                 | 7M3EHMoQrof8V
+10       | forQoMHE3M7                   | 7M3EHMoQrof
+11       | gRV8forQoMHE3M7               | 7M3EHMoQrof8VRg
+12       | kgRV8forQoMHE3M7              | 7M3EHMoQrof8VRgk
+13       | oMHE3M7                       | 7M3EHMo
+14       | orQoMHE3M7                    | 7M3EHMoQro
+15       | rQoMHE3M7                     | 7M3EHMoQr
+16       | skgRV8forQoMHE3M7             | 7M3EHMoQrof8VRgks
+17       |                               | 
+
+Total suffixes: 18

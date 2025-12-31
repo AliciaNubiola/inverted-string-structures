@@ -1,0 +1,47 @@
+Index    | Inverted Suffix                | Original Word
+--------------------------------------------------------------------------------
+0        | 0WWoYKIZmW                   | 0
+1        | 3M7Y9wgEL457kxmF0WWoYKIZmW  | 7M3
+2        | 457kxmF0WWoYKIZmW            | 0Fmxk754
+3        | 57kxmF0WWoYKIZmW             | 0Fmxk75
+4        | 7kxmF0WWoYKIZmW              | 0Fmxk7
+5        | 7Y9wgEL457kxmF0WWoYKIZmW    | 7
+6        | 8forQoMHE3M7Y9wgEL457kxmF0WW | 7M3EHMoQrof8
+7        | 9wgEL457kxmF0WWoYKIZmW       | 0Fmxk754LEgw9
+8        | E3M7Y9wgEL457kxmF0WWoYKIZmW | 7M3E
+9        | EL457kxmF0WWoYKIZmW          | 0Fmxk754LE
+10       | F0WWoYKIZmW                  | 0F
+11       | HE3M7Y9wgEL457kxmF0WWoYKIZmW | 7M3EH
+12       | IZmW                          | WmZI
+13       | KIZmW                         | WmZIK
+14       | L457kxmF0WWoYKIZmW           | 0Fmxk754L
+15       | M7Y9wgEL457kxmF0WWoYKIZmW   | 7M
+16       | MHE3M7Y9wgEL457kxmF0WWoYKIZm | 7M3EHM
+17       | QoMHE3M7Y9wgEL457kxmF0WWoYKI | 7M3EHMoQ
+18       | RV8forQoMHE3M7Y9wgEL457kxmF0 | 7M3EHMoQrof8VR
+19       | V8forQoMHE3M7Y9wgEL457kxmF0W | 7M3EHMoQrof8V
+20       | WWoYKIZmW                     | WmZIKYoWW
+21       | WoYKIZmW                      | WmZIKYoW
+22       | W                             | W
+23       | Y9wgEL457kxmF0WWoYKIZmW      | 0Fmxk754LEgw9Y
+24       | YKIZmW                        | WmZIKY
+25       | ZmW                           | WmZ
+26       | forQoMHE3M7Y9wgEL457kxmF0WWo | 7M3EHMoQrof
+27       | gEL457kxmF0WWoYKIZmW         | 0Fmxk754LEg
+28       | gRV8forQoMHE3M7Y9wgEL457kxmF0 | 7M3EHMoQrof8VRg
+29       | kgRV8forQoMHE3M7Y9wgEL457kxmF | 7M3EHMoQrof8VRgk
+30       | kxmF0WWoYKIZmW               | 0Fmxk
+31       | mF0WWoYKIZmW                 | 0Fm
+32       | mW                            | Wm
+33       | oMHE3M7Y9wgEL457kxmF0WWoYKIZ | 7M3EHMo
+34       | oYKIZmW                       | WmZIKYo
+35       | orQoMHE3M7Y9wgEL457kxmF0WWoY | 7M3EHMoQro
+36       | rQoMHE3M7Y9wgEL457kxmF0WWoYK | 7M3EHMoQr
+37       | skgRV8forQoMHE3M7Y9wgEL457kxm | 7M3EHMoQrof8VRgks
+38       | wgEL457kxmF0WWoYKIZmW        | 0Fmxk754LEgw
+39       | xmF0WWoYKIZmW                | 0Fmx
+40       | Y9wgEL457kxmF0WWoYKIZmW     | 
+41       | WWoYKIZmW                    | 
+42       |                               | 
+
+Total suffixes: 43

@@ -1,0 +1,212 @@
+Index    | Inverted Suffix                | Original Word
+--------------------------------------------------------------------------------
+0        | 0hlyw8HQgxKQjj1J2E1hRI8rIYT | gQH8wylh0
+1        | 0WWoYKIZmWNI5BVUEVkOVLmnPUY | 0
+2        | 119VOelw2MseLdUQJyxSJ2CVL9cj | esM2wleOV911
+3        | 14CliHlgXTdOOd1zvOfzDpcchORC | 41
+4        | 19VOelw2MseLdUQJyxSJ2CVL9cj | esM2wleOV91
+5        | 1hRI8rIYTffZe5jxPAfzCvoBgjO7 | r8IRh1
+6        | 1zvOfzDpcchORCNwkZCx119VOelw | pDzfOvz1
+7        | 1J2E1hRI8rIYTffZe5jxPAfzCvoB | 1
+8        | 2CVL9cj                       | jc9LVC2
+9        | 2E1hRI8rIYTffZe5jxPAfzCvoBgj | r8IRh1E2
+10       | 2MseLdUQJyxSJ2CVL9cj        | esM2
+11       | 3DnBCpWbLNPC0hlyw8HQgxKQjj1 | CBnD3
+12       | 3M7Y9wgEL457kxmF0WWoYKIZmWN | 7M3
+13       | 457kxmF0WWoYKIZmWNI5BVUEVkOV | 0Fmxk754
+14       | 4CliHlgXTdOOd1zvOfzDpcchORCN | 4
+15       | 57kxmF0WWoYKIZmWNI5BVUEVkOVL | 0Fmxk75
+16       | 5BVUEVkOVLmnPUYuNFfkX3DnBCpW | mLVOkVEUVB5
+17       | 5jxPAfzCvoBgjO7vWmGinPoe14C | BovCzfAPxj5
+18       | 7kxmF0WWoYKIZmWNI5BVUEVkOVLm | 0Fmxk7
+19       | 7vWmGinPoe14CliHlgXTdOOd1zvO | GmWv7
+20       | 7Y9wgEL457kxmF0WWoYKIZmWNI5 | 7
+21       | 8HQgxKQjj1J2E1hRI8rIYTffZe5 | gQH8
+22       | 8forQoMHE3M7Y9wgEL457kxmF0WW | 7M3EHMoQrof8
+23       | 8rIYTffZe5jxPAfzCvoBgjO7vWmG | r8
+24       | 9VOelw2MseLdUQJyxSJ2CVL9cj  | esM2wleOV9
+25       | 9cj                           | jc9
+26       | 9wgEL457kxmF0WWoYKIZmWNI5BVU | 0Fmxk754LEgw9
+27       | AfzCvoBgjO7vWmGinPoe14CliHl | BovCzfA
+28       | BCpWbLNPC0hlyw8HQgxKQjj1J2E | CB
+29       | BVUEVkOVLmnPUYuNFfkX3DnBCpWb | mLVOkVEUVB
+30       | BgjO7vWmGinPoe14CliHlgXTdOO | B
+31       | C0hlyw8HQgxKQjj1J2E1hRI8rIY | gQH8wylh0C
+32       | CNwkZCx119VOelw2MseLdUQJyxS | NC
+33       | CVL9cj                        | jc9LVC
+34       | CliHlgXTdOOd1zvOfzDpcchORCNw | pDzfOvz1dOOdTXglHilC
+35       | CvoBgjO7vWmGinPoe14CliHlgXT | BovC
+36       | Cx119VOelw2MseLdUQJyxSJ2CVL9 | esM2wleOV911xC
+37       | CpWbLNPC0hlyw8HQgxKQjj1J2E1 | C
+38       | DnBCpWbLNPC0hlyw8HQgxKQjj1J | CBnD
+39       | DpcchORCNwkZCx119VOelw2MseL | pD
+40       | E1hRI8rIYTffZe5jxPAfzCvoBgjO | r8IRh1E
+41       | E3M7Y9wgEL457kxmF0WWoYKIZmW | 7M3E
+42       | EL457kxmF0WWoYKIZmWNI5BVUEVk | 0Fmxk754LE
+43       | EVkOVLmnPUYuNFfkX3DnBCpWbLNP | mLVOkVE
+44       | F0WWoYKIZmWNI5BVUEVkOVLmnPU | 0F
+45       | FfkX3DnBCpWbLNPC0hlyw8HQgxKQ | CBnD3XkfF
+46       | GinPoe14CliHlgXTdOOd1zvOfzDp | G
+47       | HE3M7Y9wgEL457kxmF0WWoYKIZmW | 7M3EH
+48       | HQgxKQjj1J2E1hRI8rIYTffZe5j | gQH
+49       | HlgXTdOOd1zvOfzDpcchORCNwkZC | pDzfOvz1dOOdTXglH
+50       | I5BVUEVkOVLmnPUYuNFfkX3DnBCp | mLVOkVEUVB5I
+51       | I8rIYTffZe5jxPAfzCvoBgjO7vWm | r8I
+52       | IYTffZe5jxPAfzCvoBgjO7vWmGin | BovCzfAPxj5eZffTYI
+53       | IZmWNI5BVUEVkOVLmnPUYuNFfkX3 | WmZI
+54       | J2CVL9cj                      | jc9LVC2J
+55       | J2E1hRI8rIYTffZe5jxPAfzCvoBg | r8IRh1E2J
+56       | JyxSJ2CVL9cj                 | J
+57       | KIZmWNI5BVUEVkOVLmnPUYuNFfkX | WmZIK
+58       | KQjj1J2E1hRI8rIYTffZe5jxPAfz | 1jjQK
+59       | L457kxmF0WWoYKIZmWNI5BVUEVkO | 0Fmxk754L
+60       | L9cj                          | jc9L
+61       | LNPC0hlyw8HQgxKQjj1J2E1hRI8r | gQH8wylh0CPNL
+62       | LdUQJyxSJ2CVL9cj             | JQUdL
+63       | LmnPUYuNFfkX3DnBCpWbLNPC0hly | mL
+64       | M7Y9wgEL457kxmF0WWoYKIZmWNI | 7M
+65       | MHE3M7Y9wgEL457kxmF0WWoYKIZm | 7M3EHM
+66       | MseLdUQJyxSJ2CVL9cj         | esM
+67       | NFfkX3DnBCpWbLNPC0hlyw8HQgxK | CBnD3XkfFN
+68       | NI5BVUEVkOVLmnPUYuNFfkX3DnBC | mLVOkVEUVB5IN
+69       | NPC0hlyw8HQgxKQjj1J2E1hRI8r | gQH8wylh0CPN
+70       | NwkZCx119VOelw2MseLdUQJyxSJ | N
+71       | O7vWmGinPoe14CliHlgXTdOOd1zv | GmWv7O
+72       | OOd1zvOfzDpcchORCNwkZCx119VO | pDzfOvz1dOO
+73       | ORCNwkZCx119VOelw2MseLdUQJy | NCRO
+74       | OVLmnPUYuNFfkX3DnBCpWbLNPC0h | mLVO
+75       | Od1zvOfzDpcchORCNwkZCx119VOe | pDzfOvz1dO
+76       | Oelw2MseLdUQJyxSJ2CVL9cj    | esM2wleO
+77       | OfzDpcchORCNwkZCx119VOelw2Ms | pDzfO
+78       | PAfzCvoBgjO7vWmGinPoe14CliH | BovCzfAP
+79       | PC0hlyw8HQgxKQjj1J2E1hRI8rI | gQH8wylh0CP
+80       | PUYuNFfkX3DnBCpWbLNPC0hlyw8HQ | CBnD3XkfFNuYUP
+81       | Poe14CliHlgXTdOOd1zvOfzDpcch | 41eoP
+82       | QJyxSJ2CVL9cj                | JQ
+83       | QgxKQjj1J2E1hRI8rIYTffZe5jx | gQ
+84       | Qjj1J2E1hRI8rIYTffZe5jxPAfzC | 1jjQ
+85       | QoMHE3M7Y9wgEL457kxmF0WWoYKI | 7M3EHMoQ
+86       | RCNwkZCx119VOelw2MseLdUQJyx | NCR
+87       | RI8rIYTffZe5jxPAfzCvoBgjO7vW | r8IR
+88       | RV8forQoMHE3M7Y9wgEL457kxmF0 | 7M3EHMoQrof8VR
+89       | SJ2CVL9cj                     | jc9LVC2JS
+90       | TdOOd1zvOfzDpcchORCNwkZCx119 | pDzfOvz1dOOdT
+91       | TffZe5jxPAfzCvoBgjO7vWmGinPo | BovCzfAPxj5eZffT
+92       | UEVkOVLmnPUYuNFfkX3DnBCpWbLN | mLVOkVEU
+93       | UQJyxSJ2CVL9cj               | JQU
+94       | UYuNFfkX3DnBCpWbLNPC0hlyw8HQg | CBnD3XkfFNuYU
+95       | V8forQoMHE3M7Y9wgEL457kxmF0W | 7M3EHMoQrof8V
+96       | VL9cj                         | jc9LV
+97       | VLmnPUYuNFfkX3DnBCpWbLNPC0hl | mLV
+98       | VOelw2MseLdUQJyxSJ2CVL9cj   | esM2wleOV
+99       | VUEVkOVLmnPUYuNFfkX3DnBCpWbL | mLVOkVEUV
+100      | VkOVLmnPUYuNFfkX3DnBCpWbLNPC | mLVOkV
+101      | WWoYKIZmWNI5BVUEVkOVLmnPUYuN | WmZIKYoWW
+102      | WbLNPC0hlyw8HQgxKQjj1J2E1hRI | gQH8wylh0CPNLbW
+103      | WmGinPoe14CliHlgXTdOOd1zvOfz | GmW
+104      | WoYKIZmWNI5BVUEVkOVLmnPUYuNF | WmZIKYoW
+105      | WNI5BVUEVkOVLmnPUYuNFfkX3DnB | W
+106      | X3DnBCpWbLNPC0hlyw8HQgxKQjj1 | CBnD3X
+107      | XTdOOd1zvOfzDpcchORCNwkZCx11 | pDzfOvz1dOOdTX
+108      | Y9wgEL457kxmF0WWoYKIZmWNI5BV | 0Fmxk754LEgw9Y
+109      | YKIZmWNI5BVUEVkOVLmnPUYuNFfk | WmZIKY
+110      | YTffZe5jxPAfzCvoBgjO7vWmGinP | BovCzfAPxj5eZffTY
+111      | YuNFfkX3DnBCpWbLNPC0hlyw8HQg | CBnD3XkfFNuY
+112      | ZCx119VOelw2MseLdUQJyxSJ2CVL | esM2wleOV911xCZ
+113      | Ze5jxPAfzCvoBgjO7vWmGinPoe14 | BovCzfAPxj5eZ
+114      | ZmWNI5BVUEVkOVLmnPUYuNFfkX3D | WmZ
+115      | bLNPC0hlyw8HQgxKQjj1J2E1hRI8 | gQH8wylh0CPNLb
+116      | cchORCNwkZCx119VOelw2MseLdUQ | NCROhcc
+117      | chORCNwkZCx119VOelw2MseLdUQJ | NCROhc
+118      | cj                            | jc
+119      | d1zvOfzDpcchORCNwkZCx119VOel | pDzfOvz1d
+120      | dOOd1zvOfzDpcchORCNwkZCx119V | pDzfOvz1dOOd
+121      | dUQJyxSJ2CVL9cj              | JQUd
+122      | e14CliHlgXTdOOd1zvOfzDpcchOR | 41e
+123      | e5jxPAfzCvoBgjO7vWmGinPoe14 | BovCzfAPxj5e
+124      | elw2MseLdUQJyxSJ2CVL9cj     | esM2wle
+125      | eLdUQJyxSJ2CVL9cj           | e
+126      | fZe5jxPAfzCvoBgjO7vWmGinPoe1 | BovCzfAPxj5eZf
+127      | ffZe5jxPAfzCvoBgjO7vWmGinPoe | BovCzfAPxj5eZff
+128      | fkX3DnBCpWbLNPC0hlyw8HQgxKQj | CBnD3Xkf
+129      | forQoMHE3M7Y9wgEL457kxmF0WWo | 7M3EHMoQrof
+130      | fzCvoBgjO7vWmGinPoe14CliHlg | BovCzf
+131      | fzDpcchORCNwkZCx119VOelw2Mse | pDzf
+132      | gEL457kxmF0WWoYKIZmWNI5BVUEV | 0Fmxk754LEg
+133      | gRV8forQoMHE3M7Y9wgEL457kxmF0 | 7M3EHMoQrof8VRg
+134      | gXTdOOd1zvOfzDpcchORCNwkZCx1 | pDzfOvz1dOOdTXg
+135      | gjO7vWmGinPoe14CliHlgXTdOOd1 | GmWv7Ojg
+136      | gxKQjj1J2E1hRI8rIYTffZe5jxP | g
+137      | hORCNwkZCx119VOelw2MseLdUQJ | NCROh
+138      | hRI8rIYTffZe5jxPAfzCvoBgjO7v | r8IRh
+139      | hlyw8HQgxKQjj1J2E1hRI8rIYTf | gQH8wylh
+140      | iHlgXTdOOd1zvOfzDpcchORCNwkZ | pDzfOvz1dOOdTXglHi
+141      | inPoe14CliHlgXTdOOd1zvOfzDpc | 41eoPni
+142      | j1J2E1hRI8rIYTffZe5jxPAfzCvo | 1j
+143      | jO7vWmGinPoe14CliHlgXTdOOd1z | GmWv7Oj
+144      | jj1J2E1hRI8rIYTffZe5jxPAfzCv | 1jj
+145      | jxPAfzCvoBgjO7vWmGinPoe14Cl | BovCzfAPxj
+146      | j                             | j
+147      | kOVLmnPUYuNFfkX3DnBCpWbLNPC0 | mLVOk
+148      | kX3DnBCpWbLNPC0hlyw8HQgxKQjj | CBnD3Xk
+149      | kZCx119VOelw2MseLdUQJyxSJ2CV | esM2wleOV911xCZk
+150      | kgRV8forQoMHE3M7Y9wgEL457kxmF | 7M3EHMoQrof8VRgk
+151      | kxmF0WWoYKIZmWNI5BVUEVkOVLm | 0Fmxk
+152      | lgXTdOOd1zvOfzDpcchORCNwkZCx | pDzfOvz1dOOdTXgl
+153      | liHlgXTdOOd1zvOfzDpcchORCNwk | pDzfOvz1dOOdTXglHil
+154      | lw2MseLdUQJyxSJ2CVL9cj      | esM2wl
+155      | lyw8HQgxKQjj1J2E1hRI8rIYTff | gQH8wyl
+156      | mF0WWoYKIZmWNI5BVUEVkOVLmnP | 0Fm
+157      | mGinPoe14CliHlgXTdOOd1zvOfzD | Gm
+158      | mWNI5BVUEVkOVLmnPUYuNFfkX3Dn | Wm
+159      | mnPUYuNFfkX3DnBCpWbLNPC0hlyw | m
+160      | nBCpWbLNPC0hlyw8HQgxKQjj1J2 | CBn
+161      | nPUYuNFfkX3DnBCpWbLNPC0hlyw8H | CBnD3XkfFNuYUPn
+162      | nPoe14CliHlgXTdOOd1zvOfzDpcc | 41eoPn
+163      | oBgjO7vWmGinPoe14CliHlgXTdO | Bo
+164      | oMHE3M7Y9wgEL457kxmF0WWoYKIZ | 7M3EHMo
+165      | oYKIZmWNI5BVUEVkOVLmnPUYuNFf | WmZIKYo
+166      | oe14CliHlgXTdOOd1zvOfzDpcchO | 41eo
+167      | orQoMHE3M7Y9wgEL457kxmF0WWoY | 7M3EHMoQro
+168      | pWbLNPC0hlyw8HQgxKQjj1J2E1hR | gQH8wylh0CPNLbWp
+169      | pcchORCNwkZCx119VOelw2MseLd | p
+170      | rQoMHE3M7Y9wgEL457kxmF0WWoYK | 7M3EHMoQr
+171      | rIYTffZe5jxPAfzCvoBgjO7vWmG | r
+172      | seLdUQJyxSJ2CVL9cj          | es
+173      | skgRV8forQoMHE3M7Y9wgEL457kxm | 7M3EHMoQrof8VRgks
+174      | uNFfkX3DnBCpWbLNPC0hlyw8HQgx | CBnD3XkfFNu
+175      | vOfzDpcchORCNwkZCx119VOelw2M | pDzfOv
+176      | vWmGinPoe14CliHlgXTdOOd1zvOf | GmWv
+177      | voBgjO7vWmGinPoe14CliHlgXTd | Bov
+178      | w2MseLdUQJyxSJ2CVL9cj       | esM2w
+179      | w8HQgxKQjj1J2E1hRI8rIYTffZe | gQH8w
+180      | wgEL457kxmF0WWoYKIZmWNI5BVUE | 0Fmxk754LEgw
+181      | wkZCx119VOelw2MseLdUQJyxSJ2C | esM2wleOV911xCZkw
+182      | x119VOelw2MseLdUQJyxSJ2CVL9c | esM2wleOV911x
+183      | xKQjj1J2E1hRI8rIYTffZe5jxPAf | 1jjQKx
+184      | xPAfzCvoBgjO7vWmGinPoe14Cli | BovCzfAPx
+185      | xSJ2CVL9cj                    | jc9LVC2JSx
+186      | xmF0WWoYKIZmWNI5BVUEVkOVLmn | 0Fmx
+187      | yw8HQgxKQjj1J2E1hRI8rIYTffZ | gQH8wy
+188      | yxSJ2CVL9cj                   | jc9LVC2JSxy
+189      | zCvoBgjO7vWmGinPoe14CliHlgX | BovCz
+190      | zDpcchORCNwkZCx119VOelw2Mse | pDz
+191      | zvOfzDpcchORCNwkZCx119VOelw2 | pDzfOvz
+192      | Y9wgEL457kxmF0WWoYKIZmWNI5B | 
+193      | WWoYKIZmWNI5BVUEVkOVLmnPUYu | 
+194      | NI5BVUEVkOVLmnPUYuNFfkX3DnBC | 
+195      | nPUYuNFfkX3DnBCpWbLNPC0hlyw8 | 
+196      | pWbLNPC0hlyw8HQgxKQjj1J2E1h | 
+197      | xKQjj1J2E1hRI8rIYTffZe5jxPA | 
+198      | J2E1hRI8rIYTffZe5jxPAfzCvoB | 
+199      | IYTffZe5jxPAfzCvoBgjO7vWmGi | 
+200      | gjO7vWmGinPoe14CliHlgXTdOOd | 
+201      | inPoe14CliHlgXTdOOd1zvOfzDp | 
+202      | CliHlgXTdOOd1zvOfzDpcchORCN | 
+203      | cchORCNwkZCx119VOelw2MseLdU | 
+204      | wkZCx119VOelw2MseLdUQJyxSJ2 | 
+205      | LdUQJyxSJ2CVL9cj            | 
+206      | yxSJ2CVL9cj                  | 
+207      |                               | 
+
+Total suffixes: 208

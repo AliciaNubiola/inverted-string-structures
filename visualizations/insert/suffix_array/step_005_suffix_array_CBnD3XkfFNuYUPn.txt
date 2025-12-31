@@ -1,0 +1,77 @@
+Index    | Inverted Suffix                | Original Word
+--------------------------------------------------------------------------------
+0        | 0WWoYKIZmWNI5BVUEVkOVLmnPUY | 0
+1        | 3DnBC                         | CBnD3
+2        | 3M7Y9wgEL457kxmF0WWoYKIZmWN | 7M3
+3        | 457kxmF0WWoYKIZmWNI5BVUEVkOV | 0Fmxk754
+4        | 57kxmF0WWoYKIZmWNI5BVUEVkOVL | 0Fmxk75
+5        | 5BVUEVkOVLmnPUYuNFfkX3DnBC   | mLVOkVEUVB5
+6        | 7kxmF0WWoYKIZmWNI5BVUEVkOVLm | 0Fmxk7
+7        | 7Y9wgEL457kxmF0WWoYKIZmWNI5 | 7
+8        | 8forQoMHE3M7Y9wgEL457kxmF0WW | 7M3EHMoQrof8
+9        | 9wgEL457kxmF0WWoYKIZmWNI5BVU | 0Fmxk754LEgw9
+10       | BC                            | CB
+11       | BVUEVkOVLmnPUYuNFfkX3DnBC    | mLVOkVEUVB
+12       | C                             | C
+13       | DnBC                          | CBnD
+14       | E3M7Y9wgEL457kxmF0WWoYKIZmW | 7M3E
+15       | EL457kxmF0WWoYKIZmWNI5BVUEVk | 0Fmxk754LE
+16       | EVkOVLmnPUYuNFfkX3DnBC       | mLVOkVE
+17       | F0WWoYKIZmWNI5BVUEVkOVLmnPU | 0F
+18       | FfkX3DnBC                     | CBnD3XkfF
+19       | HE3M7Y9wgEL457kxmF0WWoYKIZmW | 7M3EH
+20       | I5BVUEVkOVLmnPUYuNFfkX3DnBC  | mLVOkVEUVB5I
+21       | IZmWNI5BVUEVkOVLmnPUYuNFfkX3 | WmZI
+22       | KIZmWNI5BVUEVkOVLmnPUYuNFfkX | WmZIK
+23       | L457kxmF0WWoYKIZmWNI5BVUEVkO | 0Fmxk754L
+24       | LmnPUYuNFfkX3DnBC            | mL
+25       | M7Y9wgEL457kxmF0WWoYKIZmWNI | 7M
+26       | MHE3M7Y9wgEL457kxmF0WWoYKIZm | 7M3EHM
+27       | NFfkX3DnBC                    | CBnD3XkfFN
+28       | NI5BVUEVkOVLmnPUYuNFfkX3DnBC | mLVOkVEUVB5IN
+29       | OVLmnPUYuNFfkX3DnBC          | mLVO
+30       | PUYuNFfkX3DnBC                | CBnD3XkfFNuYUP
+31       | QoMHE3M7Y9wgEL457kxmF0WWoYKI | 7M3EHMoQ
+32       | RV8forQoMHE3M7Y9wgEL457kxmF0 | 7M3EHMoQrof8VR
+33       | UEVkOVLmnPUYuNFfkX3DnBC      | mLVOkVEU
+34       | UYuNFfkX3DnBC                 | CBnD3XkfFNuYU
+35       | V8forQoMHE3M7Y9wgEL457kxmF0W | 7M3EHMoQrof8V
+36       | VLmnPUYuNFfkX3DnBC           | mLV
+37       | VUEVkOVLmnPUYuNFfkX3DnBC     | mLVOkVEUV
+38       | VkOVLmnPUYuNFfkX3DnBC        | mLVOkV
+39       | WWoYKIZmWNI5BVUEVkOVLmnPUYuN | WmZIKYoWW
+40       | WoYKIZmWNI5BVUEVkOVLmnPUYuNF | WmZIKYoW
+41       | WNI5BVUEVkOVLmnPUYuNFfkX3DnB | W
+42       | X3DnBC                        | CBnD3X
+43       | Y9wgEL457kxmF0WWoYKIZmWNI5BV | 0Fmxk754LEgw9Y
+44       | YKIZmWNI5BVUEVkOVLmnPUYuNFfk | WmZIKY
+45       | YuNFfkX3DnBC                  | CBnD3XkfFNuY
+46       | ZmWNI5BVUEVkOVLmnPUYuNFfkX3D | WmZ
+47       | fkX3DnBC                      | CBnD3Xkf
+48       | forQoMHE3M7Y9wgEL457kxmF0WWo | 7M3EHMoQrof
+49       | gEL457kxmF0WWoYKIZmWNI5BVUEV | 0Fmxk754LEg
+50       | gRV8forQoMHE3M7Y9wgEL457kxmF0 | 7M3EHMoQrof8VRg
+51       | kOVLmnPUYuNFfkX3DnBC         | mLVOk
+52       | kX3DnBC                       | CBnD3Xk
+53       | kgRV8forQoMHE3M7Y9wgEL457kxmF | 7M3EHMoQrof8VRgk
+54       | kxmF0WWoYKIZmWNI5BVUEVkOVLm | 0Fmxk
+55       | mF0WWoYKIZmWNI5BVUEVkOVLmnP | 0Fm
+56       | mWNI5BVUEVkOVLmnPUYuNFfkX3Dn | Wm
+57       | mnPUYuNFfkX3DnBC             | m
+58       | nBC                           | CBn
+59       | nPUYuNFfkX3DnBC               | CBnD3XkfFNuYUPn
+60       | oMHE3M7Y9wgEL457kxmF0WWoYKIZ | 7M3EHMo
+61       | oYKIZmWNI5BVUEVkOVLmnPUYuNFf | WmZIKYo
+62       | orQoMHE3M7Y9wgEL457kxmF0WWoY | 7M3EHMoQro
+63       | rQoMHE3M7Y9wgEL457kxmF0WWoYK | 7M3EHMoQr
+64       | skgRV8forQoMHE3M7Y9wgEL457kxm | 7M3EHMoQrof8VRgks
+65       | uNFfkX3DnBC                   | CBnD3XkfFNu
+66       | wgEL457kxmF0WWoYKIZmWNI5BVUE | 0Fmxk754LEgw
+67       | xmF0WWoYKIZmWNI5BVUEVkOVLmn | 0Fmx
+68       | Y9wgEL457kxmF0WWoYKIZmWNI5B | 
+69       | WWoYKIZmWNI5BVUEVkOVLmnPUYu | 
+70       | NI5BVUEVkOVLmnPUYuNFfkX3DnBC | 
+71       | nPUYuNFfkX3DnBC              | 
+72       |                               | 
+
+Total suffixes: 73

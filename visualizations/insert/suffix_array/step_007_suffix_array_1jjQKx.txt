@@ -1,0 +1,101 @@
+Index    | Inverted Suffix                | Original Word
+--------------------------------------------------------------------------------
+0        | 0hlyw8HQgxKQjj1              | gQH8wylh0
+1        | 0WWoYKIZmWNI5BVUEVkOVLmnPUY | 0
+2        | 1                             | 1
+3        | 3DnBCpWbLNPC0hlyw8HQgxKQjj1 | CBnD3
+4        | 3M7Y9wgEL457kxmF0WWoYKIZmWN | 7M3
+5        | 457kxmF0WWoYKIZmWNI5BVUEVkOV | 0Fmxk754
+6        | 57kxmF0WWoYKIZmWNI5BVUEVkOVL | 0Fmxk75
+7        | 5BVUEVkOVLmnPUYuNFfkX3DnBCpW | mLVOkVEUVB5
+8        | 7kxmF0WWoYKIZmWNI5BVUEVkOVLm | 0Fmxk7
+9        | 7Y9wgEL457kxmF0WWoYKIZmWNI5 | 7
+10       | 8HQgxKQjj1                   | gQH8
+11       | 8forQoMHE3M7Y9wgEL457kxmF0WW | 7M3EHMoQrof8
+12       | 9wgEL457kxmF0WWoYKIZmWNI5BVU | 0Fmxk754LEgw9
+13       | BCpWbLNPC0hlyw8HQgxKQjj1    | CB
+14       | BVUEVkOVLmnPUYuNFfkX3DnBCpWb | mLVOkVEUVB
+15       | C0hlyw8HQgxKQjj1             | gQH8wylh0C
+16       | CpWbLNPC0hlyw8HQgxKQjj1     | C
+17       | DnBCpWbLNPC0hlyw8HQgxKQjj1  | CBnD
+18       | E3M7Y9wgEL457kxmF0WWoYKIZmW | 7M3E
+19       | EL457kxmF0WWoYKIZmWNI5BVUEVk | 0Fmxk754LE
+20       | EVkOVLmnPUYuNFfkX3DnBCpWbLNP | mLVOkVE
+21       | F0WWoYKIZmWNI5BVUEVkOVLmnPU | 0F
+22       | FfkX3DnBCpWbLNPC0hlyw8HQgxKQ | CBnD3XkfF
+23       | HE3M7Y9wgEL457kxmF0WWoYKIZmW | 7M3EH
+24       | HQgxKQjj1                    | gQH
+25       | I5BVUEVkOVLmnPUYuNFfkX3DnBCp | mLVOkVEUVB5I
+26       | IZmWNI5BVUEVkOVLmnPUYuNFfkX3 | WmZI
+27       | KIZmWNI5BVUEVkOVLmnPUYuNFfkX | WmZIK
+28       | KQjj1                         | 1jjQK
+29       | L457kxmF0WWoYKIZmWNI5BVUEVkO | 0Fmxk754L
+30       | LNPC0hlyw8HQgxKQjj1          | gQH8wylh0CPNL
+31       | LmnPUYuNFfkX3DnBCpWbLNPC0hly | mL
+32       | M7Y9wgEL457kxmF0WWoYKIZmWNI | 7M
+33       | MHE3M7Y9wgEL457kxmF0WWoYKIZm | 7M3EHM
+34       | NFfkX3DnBCpWbLNPC0hlyw8HQgxK | CBnD3XkfFN
+35       | NI5BVUEVkOVLmnPUYuNFfkX3DnBC | mLVOkVEUVB5IN
+36       | NPC0hlyw8HQgxKQjj1           | gQH8wylh0CPN
+37       | OVLmnPUYuNFfkX3DnBCpWbLNPC0h | mLVO
+38       | PC0hlyw8HQgxKQjj1            | gQH8wylh0CP
+39       | PUYuNFfkX3DnBCpWbLNPC0hlyw8HQ | CBnD3XkfFNuYUP
+40       | QgxKQjj1                     | gQ
+41       | Qjj1                          | 1jjQ
+42       | QoMHE3M7Y9wgEL457kxmF0WWoYKI | 7M3EHMoQ
+43       | RV8forQoMHE3M7Y9wgEL457kxmF0 | 7M3EHMoQrof8VR
+44       | UEVkOVLmnPUYuNFfkX3DnBCpWbLN | mLVOkVEU
+45       | UYuNFfkX3DnBCpWbLNPC0hlyw8HQg | CBnD3XkfFNuYU
+46       | V8forQoMHE3M7Y9wgEL457kxmF0W | 7M3EHMoQrof8V
+47       | VLmnPUYuNFfkX3DnBCpWbLNPC0hl | mLV
+48       | VUEVkOVLmnPUYuNFfkX3DnBCpWbL | mLVOkVEUV
+49       | VkOVLmnPUYuNFfkX3DnBCpWbLNPC | mLVOkV
+50       | WWoYKIZmWNI5BVUEVkOVLmnPUYuN | WmZIKYoWW
+51       | WbLNPC0hlyw8HQgxKQjj1        | gQH8wylh0CPNLbW
+52       | WoYKIZmWNI5BVUEVkOVLmnPUYuNF | WmZIKYoW
+53       | WNI5BVUEVkOVLmnPUYuNFfkX3DnB | W
+54       | X3DnBCpWbLNPC0hlyw8HQgxKQjj1 | CBnD3X
+55       | Y9wgEL457kxmF0WWoYKIZmWNI5BV | 0Fmxk754LEgw9Y
+56       | YKIZmWNI5BVUEVkOVLmnPUYuNFfk | WmZIKY
+57       | YuNFfkX3DnBCpWbLNPC0hlyw8HQg | CBnD3XkfFNuY
+58       | ZmWNI5BVUEVkOVLmnPUYuNFfkX3D | WmZ
+59       | bLNPC0hlyw8HQgxKQjj1         | gQH8wylh0CPNLb
+60       | fkX3DnBCpWbLNPC0hlyw8HQgxKQj | CBnD3Xkf
+61       | forQoMHE3M7Y9wgEL457kxmF0WWo | 7M3EHMoQrof
+62       | gEL457kxmF0WWoYKIZmWNI5BVUEV | 0Fmxk754LEg
+63       | gRV8forQoMHE3M7Y9wgEL457kxmF0 | 7M3EHMoQrof8VRg
+64       | gxKQjj1                      | g
+65       | hlyw8HQgxKQjj1               | gQH8wylh
+66       | j1                            | 1j
+67       | jj1                           | 1jj
+68       | kOVLmnPUYuNFfkX3DnBCpWbLNPC0 | mLVOk
+69       | kX3DnBCpWbLNPC0hlyw8HQgxKQjj | CBnD3Xk
+70       | kgRV8forQoMHE3M7Y9wgEL457kxmF | 7M3EHMoQrof8VRgk
+71       | kxmF0WWoYKIZmWNI5BVUEVkOVLm | 0Fmxk
+72       | lyw8HQgxKQjj1                | gQH8wyl
+73       | mF0WWoYKIZmWNI5BVUEVkOVLmnP | 0Fm
+74       | mWNI5BVUEVkOVLmnPUYuNFfkX3Dn | Wm
+75       | mnPUYuNFfkX3DnBCpWbLNPC0hlyw | m
+76       | nBCpWbLNPC0hlyw8HQgxKQjj1   | CBn
+77       | nPUYuNFfkX3DnBCpWbLNPC0hlyw8H | CBnD3XkfFNuYUPn
+78       | oMHE3M7Y9wgEL457kxmF0WWoYKIZ | 7M3EHMo
+79       | oYKIZmWNI5BVUEVkOVLmnPUYuNFf | WmZIKYo
+80       | orQoMHE3M7Y9wgEL457kxmF0WWoY | 7M3EHMoQro
+81       | pWbLNPC0hlyw8HQgxKQjj1       | gQH8wylh0CPNLbWp
+82       | rQoMHE3M7Y9wgEL457kxmF0WWoYK | 7M3EHMoQr
+83       | skgRV8forQoMHE3M7Y9wgEL457kxm | 7M3EHMoQrof8VRgks
+84       | uNFfkX3DnBCpWbLNPC0hlyw8HQgx | CBnD3XkfFNu
+85       | w8HQgxKQjj1                  | gQH8w
+86       | wgEL457kxmF0WWoYKIZmWNI5BVUE | 0Fmxk754LEgw
+87       | xKQjj1                        | 1jjQKx
+88       | xmF0WWoYKIZmWNI5BVUEVkOVLmn | 0Fmx
+89       | yw8HQgxKQjj1                 | gQH8wy
+90       | Y9wgEL457kxmF0WWoYKIZmWNI5B | 
+91       | WWoYKIZmWNI5BVUEVkOVLmnPUYu | 
+92       | NI5BVUEVkOVLmnPUYuNFfkX3DnBC | 
+93       | nPUYuNFfkX3DnBCpWbLNPC0hlyw8 | 
+94       | pWbLNPC0hlyw8HQgxKQjj1      | 
+95       | xKQjj1                       | 
+96       |                               | 
+
+Total suffixes: 97

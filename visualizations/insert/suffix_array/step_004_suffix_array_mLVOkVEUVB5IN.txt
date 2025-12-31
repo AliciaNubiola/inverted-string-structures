@@ -1,0 +1,61 @@
+Index    | Inverted Suffix                | Original Word
+--------------------------------------------------------------------------------
+0        | 0WWoYKIZmWNI5BVUEVkOVLm     | 0
+1        | 3M7Y9wgEL457kxmF0WWoYKIZmWN | 7M3
+2        | 457kxmF0WWoYKIZmWNI5BVUEVkOV | 0Fmxk754
+3        | 57kxmF0WWoYKIZmWNI5BVUEVkOVL | 0Fmxk75
+4        | 5BVUEVkOVLm                   | mLVOkVEUVB5
+5        | 7kxmF0WWoYKIZmWNI5BVUEVkOVLm | 0Fmxk7
+6        | 7Y9wgEL457kxmF0WWoYKIZmWNI5 | 7
+7        | 8forQoMHE3M7Y9wgEL457kxmF0WW | 7M3EHMoQrof8
+8        | 9wgEL457kxmF0WWoYKIZmWNI5BVU | 0Fmxk754LEgw9
+9        | BVUEVkOVLm                    | mLVOkVEUVB
+10       | E3M7Y9wgEL457kxmF0WWoYKIZmW | 7M3E
+11       | EL457kxmF0WWoYKIZmWNI5BVUEVk | 0Fmxk754LE
+12       | EVkOVLm                       | mLVOkVE
+13       | F0WWoYKIZmWNI5BVUEVkOVLm    | 0F
+14       | HE3M7Y9wgEL457kxmF0WWoYKIZmW | 7M3EH
+15       | I5BVUEVkOVLm                  | mLVOkVEUVB5I
+16       | IZmWNI5BVUEVkOVLm            | WmZI
+17       | KIZmWNI5BVUEVkOVLm           | WmZIK
+18       | L457kxmF0WWoYKIZmWNI5BVUEVkO | 0Fmxk754L
+19       | Lm                            | mL
+20       | M7Y9wgEL457kxmF0WWoYKIZmWNI | 7M
+21       | MHE3M7Y9wgEL457kxmF0WWoYKIZm | 7M3EHM
+22       | NI5BVUEVkOVLm                 | mLVOkVEUVB5IN
+23       | OVLm                          | mLVO
+24       | QoMHE3M7Y9wgEL457kxmF0WWoYKI | 7M3EHMoQ
+25       | RV8forQoMHE3M7Y9wgEL457kxmF0 | 7M3EHMoQrof8VR
+26       | UEVkOVLm                      | mLVOkVEU
+27       | V8forQoMHE3M7Y9wgEL457kxmF0W | 7M3EHMoQrof8V
+28       | VLm                           | mLV
+29       | VUEVkOVLm                     | mLVOkVEUV
+30       | VkOVLm                        | mLVOkV
+31       | WWoYKIZmWNI5BVUEVkOVLm       | WmZIKYoWW
+32       | WoYKIZmWNI5BVUEVkOVLm        | WmZIKYoW
+33       | WNI5BVUEVkOVLm               | W
+34       | Y9wgEL457kxmF0WWoYKIZmWNI5BV | 0Fmxk754LEgw9Y
+35       | YKIZmWNI5BVUEVkOVLm          | WmZIKY
+36       | ZmWNI5BVUEVkOVLm             | WmZ
+37       | forQoMHE3M7Y9wgEL457kxmF0WWo | 7M3EHMoQrof
+38       | gEL457kxmF0WWoYKIZmWNI5BVUEV | 0Fmxk754LEg
+39       | gRV8forQoMHE3M7Y9wgEL457kxmF0 | 7M3EHMoQrof8VRg
+40       | kOVLm                         | mLVOk
+41       | kgRV8forQoMHE3M7Y9wgEL457kxmF | 7M3EHMoQrof8VRgk
+42       | kxmF0WWoYKIZmWNI5BVUEVkOVLm | 0Fmxk
+43       | mF0WWoYKIZmWNI5BVUEVkOVLm   | 0Fm
+44       | mWNI5BVUEVkOVLm              | Wm
+45       | m                             | m
+46       | oMHE3M7Y9wgEL457kxmF0WWoYKIZ | 7M3EHMo
+47       | oYKIZmWNI5BVUEVkOVLm         | WmZIKYo
+48       | orQoMHE3M7Y9wgEL457kxmF0WWoY | 7M3EHMoQro
+49       | rQoMHE3M7Y9wgEL457kxmF0WWoYK | 7M3EHMoQr
+50       | skgRV8forQoMHE3M7Y9wgEL457kxm | 7M3EHMoQrof8VRgks
+51       | wgEL457kxmF0WWoYKIZmWNI5BVUE | 0Fmxk754LEgw
+52       | xmF0WWoYKIZmWNI5BVUEVkOVLm  | 0Fmx
+53       | Y9wgEL457kxmF0WWoYKIZmWNI5B | 
+54       | WWoYKIZmWNI5BVUEVkOVLm      | 
+55       | NI5BVUEVkOVLm                | 
+56       |                               | 
+
+Total suffixes: 57

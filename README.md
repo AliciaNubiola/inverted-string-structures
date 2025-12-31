@@ -52,11 +52,6 @@ pip install -r requirements.txt
 dot -V
 ``````
 
-### 7. Verify Installation
-``````powershell
-python -c "import graphviz; print(graphviz.version())"
-``````
-
 ## Usage
 
 ### Generate Datasets (should already be generated)
@@ -70,28 +65,34 @@ This creates:
 - `datasets\large.txt` (10,000 strings)
 - `datasets\xlarge.txt` (50,000 strings)
 
-### Run All Experiments
+### Run All Experiments without visualizations
 ``````powershell
 python src\experiments.py --all
 ``````
-
-### Run Without Visualizations (faster)
+### Run Visualizations
 ``````powershell
-python src\experiments.py --all --no-visualize
+python src\vis_graphvis.py
 ``````
+### Visualizations output
+Results are saved to visualizations folder.
+Inside there will be complete and insert folders and if desired delete folder.
+
+When executing vis_graphvis.py folder the user will be asked to indicate what database wants to be used and wheather or not the delete visualization wants to be created. If the delete visualization is desired it will be asked to the user the word to delete.
 
 ## Output
 
 Results are saved to:
 - `results\data\benchmark_results.json` - Raw benchmark data
-- `results\graphs\performance_comparison.png` - Performance graphs
-- `results\graphs\suffix_array.png` - Suffix Array visualization
-- `results\graphs\prefix_trie.png` - Prefix Trie visualization
+- `results\graphs\comprehensive_comparison.png` - General comparison
+- `results\graphs\delete_comparison.png` 
+- `results\graphs\insert_comparison.png`
+- `results\graphs\range_search_comparison.png`
+- `results\graphs\search_comparison.png`
 
 
 ## Reproducibility
 
-All experiments are deterministic and reproducible. To reproduce delete datasets and results and follow the steps:
+All experiments are deterministic and reproducible. To reproduce delete datasets resultsand visualizations and follow the steps:
 
 1. Ensure same Python version:
 ``````powershell
@@ -108,6 +109,10 @@ All experiments are deterministic and reproducible. To reproduce delete datasets
 4. Run experiments:
 ``````powershell
    python src\experiments.py --all
+``````
+5. Run visualizations:
+``````powershell
+python src\vis_graphvis.py
 ``````
 
 

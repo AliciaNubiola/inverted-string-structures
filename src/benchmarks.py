@@ -7,6 +7,8 @@ import string
 from prefix_trie import PrefixTrie
 from suffix_array import InvertedSuffixArray
 
+# Set seed for reproducibility
+random.seed(42)
 
 def read_words_from_file(filename: str) -> list:
     with open(filename, "r") as f:
@@ -26,12 +28,9 @@ class Benchmark:
     # -------------------------------
     def benchmark_insert(self, structure_class, name):
         self.results[name]["insert"] = []
-        print(f"  [INSERT] Testing...")
         
         for size in self.dataset_sizes:
-            print(f"    • {size:8s} - Loading...", end=" ", flush=True)
             words = read_words_from_file(f"datasets/{size}.txt")
-            print(f"{len(words)} words loaded, inserting...", end=" ", flush=True)
 
             # Initialize structure
             structure = structure_class()
@@ -51,7 +50,6 @@ class Benchmark:
             current, peak = tracemalloc.get_traced_memory()
             tracemalloc.stop()
 
-            print(f"✓ {elapsed:6.3f}s | {peak/(1024*1024):6.2f} MB")
 
             self.results[name]["insert"].append({
                 "size": size,
@@ -145,13 +143,10 @@ class Benchmark:
 
         tracemalloc.start()
         start_time = time.perf_counter()
-        print("Deleting words...", end=" ", flush=True)
         i = 0
         for w in deletions:
             i+=1
-            print(f"{i}/{delete_count}...", end=" ", flush=True)
             structure.delete(w)
-        print("Done.")
         elapsed = time.perf_counter() - start_time
         current, peak = tracemalloc.get_traced_memory()
         tracemalloc.stop()

@@ -1,0 +1,37 @@
+Index    | Inverted Suffix                | Original Word
+--------------------------------------------------------------------------------
+0        | 0                             | 0
+1        | 3M7Y9wgEL457kxmF0            | 7M3
+2        | 457kxmF0                      | 0Fmxk754
+3        | 57kxmF0                       | 0Fmxk75
+4        | 7kxmF0                        | 0Fmxk7
+5        | 7Y9wgEL457kxmF0              | 7
+6        | 8forQoMHE3M7Y9wgEL457kxmF0   | 7M3EHMoQrof8
+7        | 9wgEL457kxmF0                 | 0Fmxk754LEgw9
+8        | E3M7Y9wgEL457kxmF0           | 7M3E
+9        | EL457kxmF0                    | 0Fmxk754LE
+10       | F0                            | 0F
+11       | HE3M7Y9wgEL457kxmF0          | 7M3EH
+12       | L457kxmF0                     | 0Fmxk754L
+13       | M7Y9wgEL457kxmF0             | 7M
+14       | MHE3M7Y9wgEL457kxmF0         | 7M3EHM
+15       | QoMHE3M7Y9wgEL457kxmF0       | 7M3EHMoQ
+16       | RV8forQoMHE3M7Y9wgEL457kxmF0 | 7M3EHMoQrof8VR
+17       | V8forQoMHE3M7Y9wgEL457kxmF0  | 7M3EHMoQrof8V
+18       | Y9wgEL457kxmF0                | 0Fmxk754LEgw9Y
+19       | forQoMHE3M7Y9wgEL457kxmF0    | 7M3EHMoQrof
+20       | gEL457kxmF0                   | 0Fmxk754LEg
+21       | gRV8forQoMHE3M7Y9wgEL457kxmF0 | 7M3EHMoQrof8VRg
+22       | kgRV8forQoMHE3M7Y9wgEL457kxmF | 7M3EHMoQrof8VRgk
+23       | kxmF0                         | 0Fmxk
+24       | mF0                           | 0Fm
+25       | oMHE3M7Y9wgEL457kxmF0        | 7M3EHMo
+26       | orQoMHE3M7Y9wgEL457kxmF0     | 7M3EHMoQro
+27       | rQoMHE3M7Y9wgEL457kxmF0      | 7M3EHMoQr
+28       | skgRV8forQoMHE3M7Y9wgEL457kxm | 7M3EHMoQrof8VRgks
+29       | wgEL457kxmF0                  | 0Fmxk754LEgw
+30       | xmF0                          | 0Fmx
+31       | Y9wgEL457kxmF0               | 
+32       |                               | 
+
+Total suffixes: 33

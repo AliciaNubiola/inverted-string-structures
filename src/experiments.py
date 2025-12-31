@@ -174,7 +174,7 @@ def plot_all_operations_comparison(results):
     
     ax.plot(sizes, pt_memory, marker="o", label="Prefix Trie", linewidth=2.5, markersize=10, color='#2E86AB')
     ax.plot(sizes, sa_memory, marker="s", label="Suffix Array", linewidth=2.5, markersize=10, color='#A23B72')
-    ax.set_title("Memory Usage vs Dataset Size", fontsize=13, fontweight='bold')
+    ax.set_title("Memory Usage inserting vs Dataset Size", fontsize=13, fontweight='bold')
     ax.set_xlabel("Dataset Size", fontsize=11)
     ax.set_ylabel("Memory (MB)", fontsize=11)
     ax.legend(fontsize=10)
