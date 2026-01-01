@@ -1,5 +1,0 @@
-1. Introduction (500 words)
-2. Algorithm Presentation (800 words)
-3. Experiment Setup (600 words)
-4. Experiment Results (700 words)
-5. Discussion and Conclusion (400 words)
